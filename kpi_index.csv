@@ -1,0 +1,326 @@
+id,name,industry,industry_code,formula,unit,frequency
+FIN001,Return on Assets (ROA),Financial Services,financial_services,(Net Income / Total Assets) × 100,%,quarterly
+FIN002,Return on Equity (ROE),Financial Services,financial_services,(Net Income / Shareholder Equity) × 100,%,quarterly
+FIN003,Net Interest Margin (NIM),Financial Services,financial_services,(Interest Income - Interest Expense) / Average Earning Assets,%,quarterly
+FIN004,Cost-to-Income Ratio,Financial Services,financial_services,Operating Expenses / Operating Income,%,quarterly
+FIN005,Loan-to-Deposit Ratio,Financial Services,financial_services,Total Loans / Total Deposits,%,monthly
+FIN006,Non-Performing Loan Ratio,Financial Services,financial_services,Non-Performing Loans / Total Loans,%,monthly
+FIN007,Capital Adequacy Ratio (CAR),Financial Services,financial_services,(Tier 1 Capital + Tier 2 Capital) / Risk-Weighted Assets,%,quarterly
+FIN008,Liquidity Coverage Ratio (LCR),Financial Services,financial_services,High-Quality Liquid Assets / Net Cash Outflows,%,daily
+FIN009,Net Stable Funding Ratio (NSFR),Financial Services,financial_services,Available Stable Funding / Required Stable Funding,%,quarterly
+FIN010,Earnings Per Share (EPS),Financial Services,financial_services,(Net Income - Preferred Dividends) / Weighted Average Shares Outstanding,currency,quarterly
+FIN011,Price-to-Earnings Ratio (P/E),Financial Services,financial_services,Market Price per Share / Earnings per Share,ratio,daily
+FIN012,Dividend Yield,Financial Services,financial_services,Annual Dividends per Share / Price per Share,%,quarterly
+FIN013,Book Value per Share,Financial Services,financial_services,(Total Equity - Preferred Equity) / Total Shares Outstanding,currency,quarterly
+FIN014,Debt-to-Equity Ratio,Financial Services,financial_services,Total Liabilities / Shareholders Equity,ratio,quarterly
+FIN015,Interest Coverage Ratio,Financial Services,financial_services,EBIT / Interest Expense,ratio,quarterly
+FIN016,Operating Margin,Financial Services,financial_services,Operating Income / Revenue,%,quarterly
+FIN017,Net Profit Margin,Financial Services,financial_services,Net Income / Revenue,%,quarterly
+FIN018,Assets Under Management (AUM),Financial Services,financial_services,Sum of all managed assets,currency,monthly
+FIN019,Customer Acquisition Cost (CAC),Financial Services,financial_services,Total Sales & Marketing Cost / New Customers Acquired,currency,monthly
+FIN020,Customer Lifetime Value (CLV),Financial Services,financial_services,Average Revenue per Customer × Average Customer Lifespan,currency,quarterly
+FIN021,Provision Coverage Ratio,Financial Services,financial_services,Loan Loss Provisions / Non-Performing Loans,%,quarterly
+FIN022,Credit Loss Rate,Financial Services,financial_services,Net Charge-Offs / Average Loans,%,quarterly
+FIN023,Fee Income Ratio,Financial Services,financial_services,Fee Income / Total Revenue,%,quarterly
+FIN024,Cross-Sell Ratio,Financial Services,financial_services,Number of Products / Number of Customers,ratio,monthly
+FIN025,Digital Adoption Rate,Financial Services,financial_services,Digital Users / Total Customers,%,monthly
+MFG001,Overall Equipment Effectiveness (OEE),Manufacturing,manufacturing,Availability × Performance × Quality,%,daily
+MFG002,Total Effective Equipment Performance (TEEP),Manufacturing,manufacturing,OEE × Utilization,%,daily
+MFG003,Mean Time Between Failures (MTBF),Manufacturing,manufacturing,Total Operating Time / Number of Failures,hours,monthly
+MFG004,Mean Time to Repair (MTTR),Manufacturing,manufacturing,Total Repair Time / Number of Repairs,hours,monthly
+MFG005,First Pass Yield (FPY),Manufacturing,manufacturing,Good Units / Total Units Produced,%,daily
+MFG006,Scrap Rate,Manufacturing,manufacturing,Scrapped Units / Total Units Produced,%,daily
+MFG007,Defect Rate,Manufacturing,manufacturing,Defective Units / Total Units Produced,%,daily
+MFG008,Cycle Time,Manufacturing,manufacturing,End Time - Start Time,minutes,hourly
+MFG009,Takt Time,Manufacturing,manufacturing,Available Production Time / Customer Demand,minutes,daily
+MFG010,Throughput,Manufacturing,manufacturing,Units Produced / Time Period,units/hour,hourly
+MFG011,Capacity Utilization,Manufacturing,manufacturing,Actual Output / Maximum Possible Output,%,daily
+MFG012,Production Attainment,Manufacturing,manufacturing,Actual Production / Planned Production,%,daily
+MFG013,Schedule Adherence,Manufacturing,manufacturing,On-Time Orders / Total Orders,%,daily
+MFG014,Changeover Time,Manufacturing,manufacturing,Time from last good part to first good part,minutes,per occurrence
+MFG015,Inventory Turnover,Manufacturing,manufacturing,Cost of Goods Sold / Average Inventory,turns/year,monthly
+MFG016,Days Sales of Inventory (DSI),Manufacturing,manufacturing,(Average Inventory / COGS) × 365,days,monthly
+MFG017,Work in Progress (WIP) Inventory,Manufacturing,manufacturing,Value of partially completed goods,currency,daily
+MFG018,Manufacturing Cost per Unit,Manufacturing,manufacturing,Total Manufacturing Cost / Units Produced,currency,monthly
+MFG019,Labor Productivity,Manufacturing,manufacturing,Output / Labor Hours,units/hour,daily
+MFG020,Energy Cost per Unit,Manufacturing,manufacturing,Total Energy Cost / Units Produced,currency,monthly
+MFG021,Machine Downtime,Manufacturing,manufacturing,Downtime Hours / Available Hours,%,daily
+MFG022,Rework Rate,Manufacturing,manufacturing,Reworked Units / Total Units Produced,%,daily
+MFG023,On-Time Delivery (OTD),Manufacturing,manufacturing,Orders Delivered On Time / Total Orders,%,monthly
+MFG024,Return Rate,Manufacturing,manufacturing,Returned Units / Total Units Sold,%,monthly
+MFG025,Safety Incident Rate,Manufacturing,manufacturing,"(Incidents × 200,000) / Total Hours Worked",per 100 workers,monthly
+RET001,Sales per Square Foot,Retail & E-commerce,retail_ecommerce,Total Sales / Selling Space (sq ft),currency/sqft,monthly
+RET002,Same-Store Sales Growth,Retail & E-commerce,retail_ecommerce,(Current Period Sales - Prior Period Sales) / Prior Period Sales,%,monthly
+RET003,Gross Margin Return on Investment (GMROI),Retail & E-commerce,retail_ecommerce,Gross Margin / Average Inventory Cost,ratio,quarterly
+RET004,Average Transaction Value (ATV),Retail & E-commerce,retail_ecommerce,Total Revenue / Number of Transactions,currency,daily
+RET005,Units per Transaction (UPT),Retail & E-commerce,retail_ecommerce,Total Units Sold / Number of Transactions,units,daily
+RET006,Conversion Rate,Retail & E-commerce,retail_ecommerce,Purchases / Store Visitors,%,daily
+RET007,Foot Traffic,Retail & E-commerce,retail_ecommerce,Number of store visitors,visitors,daily
+RET008,Shrinkage Rate,Retail & E-commerce,retail_ecommerce,Inventory Loss / Net Sales,%,annually
+RET009,Inventory Turn Rate,Retail & E-commerce,retail_ecommerce,Cost of Goods Sold / Average Inventory,turns/year,monthly
+RET010,Sell-Through Rate,Retail & E-commerce,retail_ecommerce,Units Sold / Units Received,%,weekly
+RET011,Stock-to-Sales Ratio,Retail & E-commerce,retail_ecommerce,Beginning of Month Stock / Sales,ratio,monthly
+RET012,Cart Abandonment Rate,Retail & E-commerce,retail_ecommerce,Abandoned Carts / Initiated Checkouts,%,daily
+RET013,Customer Retention Rate,Retail & E-commerce,retail_ecommerce,(End Customers - New Customers) / Start Customers,%,monthly
+RET014,Repeat Purchase Rate,Retail & E-commerce,retail_ecommerce,Repeat Customers / Total Customers,%,monthly
+RET015,Net Promoter Score (NPS),Retail & E-commerce,retail_ecommerce,% Promoters - % Detractors,score,quarterly
+RET016,Customer Satisfaction Score (CSAT),Retail & E-commerce,retail_ecommerce,Satisfied Customers / Total Responses,%,monthly
+RET017,Average Order Value (AOV),Retail & E-commerce,retail_ecommerce,Total Revenue / Number of Orders,currency,daily
+RET018,Customer Lifetime Value (CLV),Retail & E-commerce,retail_ecommerce,Average Purchase Value × Purchase Frequency × Customer Lifespan,currency,quarterly
+RET019,Customer Acquisition Cost (CAC),Retail & E-commerce,retail_ecommerce,Marketing Spend / New Customers,currency,monthly
+RET020,Return on Advertising Spend (ROAS),Retail & E-commerce,retail_ecommerce,Revenue from Ads / Ad Spend,ratio,weekly
+RET021,Website Traffic,Retail & E-commerce,retail_ecommerce,Unique visitors to website,visitors,daily
+RET022,Bounce Rate,Retail & E-commerce,retail_ecommerce,Single-Page Sessions / Total Sessions,%,daily
+RET023,Pages per Session,Retail & E-commerce,retail_ecommerce,Total Page Views / Total Sessions,pages,daily
+RET024,Average Session Duration,Retail & E-commerce,retail_ecommerce,Total Session Duration / Total Sessions,seconds,daily
+RET025,Mobile Conversion Rate,Retail & E-commerce,retail_ecommerce,Mobile Purchases / Mobile Visitors,%,daily
+HCR001,Patient Satisfaction Score,Healthcare,healthcare,Satisfied Patients / Total Surveyed Patients,%,monthly
+HCR002,Average Length of Stay (ALOS),Healthcare,healthcare,Total Patient Days / Total Discharges,days,monthly
+HCR003,Bed Occupancy Rate,Healthcare,healthcare,Occupied Beds / Total Available Beds,%,daily
+HCR004,Bed Turnover Rate,Healthcare,healthcare,Discharges / Average Available Beds,patients/bed,monthly
+HCR005,Readmission Rate,Healthcare,healthcare,Readmissions within 30 days / Total Discharges,%,monthly
+HCR006,Emergency Department Wait Time,Healthcare,healthcare,Average time from arrival to treatment,minutes,daily
+HCR007,Patient Wait Time,Healthcare,healthcare,Average time from check-in to provider,minutes,daily
+HCR008,Operating Room Utilization,Healthcare,healthcare,Actual Surgery Time / Available OR Time,%,daily
+HCR009,Surgery Cancellation Rate,Healthcare,healthcare,Cancelled Surgeries / Scheduled Surgeries,%,monthly
+HCR010,Hospital-Acquired Infection Rate,Healthcare,healthcare,HAIs / Patient Days × 1000,per 1000 patient days,monthly
+HCR011,Medication Error Rate,Healthcare,healthcare,Medication Errors / Total Medications Administered,%,monthly
+HCR012,Patient Fall Rate,Healthcare,healthcare,Falls / Patient Days × 1000,per 1000 patient days,monthly
+HCR013,Pressure Ulcer Rate,Healthcare,healthcare,Pressure Ulcers / Patient Days × 1000,per 1000 patient days,monthly
+HCR014,Mortality Rate,Healthcare,healthcare,Deaths / Total Admissions,%,monthly
+HCR015,Case Mix Index (CMI),Healthcare,healthcare,Sum of DRG Weights / Total Discharges,index,monthly
+HCR016,Revenue per Patient Day,Healthcare,healthcare,Total Revenue / Total Patient Days,currency,monthly
+HCR017,Cost per Case,Healthcare,healthcare,Total Operating Costs / Total Cases,currency,monthly
+HCR018,Days in Accounts Receivable,Healthcare,healthcare,(Accounts Receivable / Net Revenue) × 365,days,monthly
+HCR019,Net Collection Rate,Healthcare,healthcare,Payments Received / Adjusted Charges,%,monthly
+HCR020,Claim Denial Rate,Healthcare,healthcare,Denied Claims / Total Claims Submitted,%,monthly
+HCR021,Staff-to-Patient Ratio,Healthcare,healthcare,Total Staff / Total Patients,ratio,daily
+HCR022,Nurse Turnover Rate,Healthcare,healthcare,Nurses Who Left / Average Nurse Headcount,%,annually
+HCR023,Physician Productivity,Healthcare,healthcare,RVUs Generated / FTE Physicians,RVUs,monthly
+HCR024,No-Show Rate,Healthcare,healthcare,Missed Appointments / Scheduled Appointments,%,monthly
+HCR025,Patient Throughput,Healthcare,healthcare,Patients Treated / Time Period,patients/hour,daily
+TEC001,Monthly Recurring Revenue (MRR),Technology & SaaS,technology_saas,Sum of all monthly subscription revenue,currency,monthly
+TEC002,Annual Recurring Revenue (ARR),Technology & SaaS,technology_saas,MRR × 12,currency,monthly
+TEC003,Customer Churn Rate,Technology & SaaS,technology_saas,Lost Customers / Beginning Customers,%,monthly
+TEC004,Revenue Churn Rate,Technology & SaaS,technology_saas,Lost MRR / Beginning MRR,%,monthly
+TEC005,Net Revenue Retention (NRR),Technology & SaaS,technology_saas,(Beginning MRR + Expansion - Contraction - Churn) / Beginning MRR,%,monthly
+TEC006,Customer Acquisition Cost (CAC),Technology & SaaS,technology_saas,Sales & Marketing Spend / New Customers,currency,monthly
+TEC007,Customer Lifetime Value (LTV),Technology & SaaS,technology_saas,ARPU × Gross Margin × Average Customer Lifetime,currency,quarterly
+TEC008,LTV to CAC Ratio,Technology & SaaS,technology_saas,Customer Lifetime Value / Customer Acquisition Cost,ratio,quarterly
+TEC009,CAC Payback Period,Technology & SaaS,technology_saas,CAC / (ARPU × Gross Margin),months,quarterly
+TEC010,Average Revenue Per User (ARPU),Technology & SaaS,technology_saas,Total Revenue / Total Users,currency,monthly
+TEC011,Daily Active Users (DAU),Technology & SaaS,technology_saas,Unique users active per day,users,daily
+TEC012,Monthly Active Users (MAU),Technology & SaaS,technology_saas,Unique users active per month,users,monthly
+TEC013,DAU/MAU Ratio (Stickiness),Technology & SaaS,technology_saas,Daily Active Users / Monthly Active Users,%,monthly
+TEC014,User Engagement Rate,Technology & SaaS,technology_saas,Active Users / Total Registered Users,%,weekly
+TEC015,Feature Adoption Rate,Technology & SaaS,technology_saas,Users Using Feature / Total Users,%,weekly
+TEC016,Time to Value (TTV),Technology & SaaS,technology_saas,Time from signup to first value realization,days,monthly
+TEC017,Activation Rate,Technology & SaaS,technology_saas,Users Completing Onboarding / New Signups,%,weekly
+TEC018,Trial-to-Paid Conversion Rate,Technology & SaaS,technology_saas,Paid Conversions / Trial Users,%,monthly
+TEC019,Expansion Revenue Rate,Technology & SaaS,technology_saas,Expansion MRR / Beginning MRR,%,monthly
+TEC020,Quick Ratio (SaaS),Technology & SaaS,technology_saas,(New MRR + Expansion MRR) / (Churned MRR + Contraction MRR),ratio,monthly
+TEC021,Burn Rate,Technology & SaaS,technology_saas,Monthly Cash Expenses - Monthly Cash Revenue,currency,monthly
+TEC022,Runway,Technology & SaaS,technology_saas,Cash Balance / Monthly Burn Rate,months,monthly
+TEC023,Rule of 40,Technology & SaaS,technology_saas,Revenue Growth Rate + Profit Margin,%,quarterly
+TEC024,Magic Number,Technology & SaaS,technology_saas,(Current Quarter ARR - Previous Quarter ARR) / Previous Quarter Sales & Marketing Spend,ratio,quarterly
+TEC025,Net Dollar Retention,Technology & SaaS,technology_saas,(Starting ARR + Expansion - Contraction - Churn) / Starting ARR,%,annually
+ENR001,Capacity Factor,Energy & Utilities,energy_utilities,Actual Output / Maximum Possible Output,%,monthly
+ENR002,Availability Factor,Energy & Utilities,energy_utilities,Available Hours / Total Hours,%,monthly
+ENR003,Heat Rate,Energy & Utilities,energy_utilities,Fuel Energy Input / Electrical Energy Output,BTU/kWh,monthly
+ENR004,Levelized Cost of Energy (LCOE),Energy & Utilities,energy_utilities,Lifetime Costs / Lifetime Energy Production,currency/MWh,annually
+ENR005,System Average Interruption Duration Index (SAIDI),Energy & Utilities,energy_utilities,Total Duration of Interruptions / Total Customers,minutes,annually
+ENR006,System Average Interruption Frequency Index (SAIFI),Energy & Utilities,energy_utilities,Total Number of Interruptions / Total Customers,interruptions,annually
+ENR007,Customer Average Interruption Duration Index (CAIDI),Energy & Utilities,energy_utilities,SAIDI / SAIFI,minutes,annually
+ENR008,Transmission & Distribution Losses,Energy & Utilities,energy_utilities,(Energy Input - Energy Delivered) / Energy Input,%,monthly
+ENR009,Peak Demand,Energy & Utilities,energy_utilities,Maximum power demand during period,MW,daily
+ENR010,Load Factor,Energy & Utilities,energy_utilities,Average Load / Peak Load,%,monthly
+ENR011,Reserve Margin,Energy & Utilities,energy_utilities,(Available Capacity - Peak Demand) / Peak Demand,%,annually
+ENR012,Energy Intensity,Energy & Utilities,energy_utilities,Energy Consumption / GDP or Production,MJ/unit,annually
+ENR013,Carbon Intensity,Energy & Utilities,energy_utilities,CO2 Emissions / Energy Produced,kg CO2/MWh,annually
+ENR014,Renewable Energy Percentage,Energy & Utilities,energy_utilities,Renewable Energy / Total Energy,%,annually
+ENR015,Energy Return on Investment (EROI),Energy & Utilities,energy_utilities,Energy Output / Energy Input,ratio,annually
+ENR016,Forced Outage Rate,Energy & Utilities,energy_utilities,Forced Outage Hours / (Service Hours + Forced Outage Hours),%,annually
+ENR017,Planned Outage Factor,Energy & Utilities,energy_utilities,Planned Outage Hours / Period Hours,%,annually
+ENR018,Equivalent Availability Factor,Energy & Utilities,energy_utilities,Available Hours / Period Hours,%,annually
+ENR019,Customer Satisfaction Index,Energy & Utilities,energy_utilities,Survey-based satisfaction score,score,annually
+ENR020,Collection Efficiency,Energy & Utilities,energy_utilities,Revenue Collected / Revenue Billed,%,monthly
+ENR021,Cost per kWh,Energy & Utilities,energy_utilities,Total Operating Cost / Total kWh Sold,currency/kWh,monthly
+ENR022,Meter Accuracy Rate,Energy & Utilities,energy_utilities,Accurate Meters / Total Meters Tested,%,annually
+ENR023,Smart Meter Penetration,Energy & Utilities,energy_utilities,Smart Meters / Total Meters,%,quarterly
+ENR024,Demand Response Participation,Energy & Utilities,energy_utilities,Participating Load / Total Eligible Load,%,annually
+ENR025,Energy Theft Rate,Energy & Utilities,energy_utilities,Estimated Stolen Energy / Total Energy Supplied,%,annually
+SCL001,Perfect Order Rate,Supply Chain & Logistics,supply_chain_logistics,(On-Time × In-Full × Damage-Free × Accurate) Orders / Total Orders,%,monthly
+SCL002,Order Fill Rate,Supply Chain & Logistics,supply_chain_logistics,Orders Shipped Complete / Total Orders,%,daily
+SCL003,On-Time Delivery Rate,Supply Chain & Logistics,supply_chain_logistics,On-Time Deliveries / Total Deliveries,%,daily
+SCL004,On-Time In-Full (OTIF),Supply Chain & Logistics,supply_chain_logistics,Orders Delivered Complete and On Time / Total Orders,%,daily
+SCL005,Order Cycle Time,Supply Chain & Logistics,supply_chain_logistics,Time from Order Placement to Delivery,days,daily
+SCL006,Inventory Accuracy,Supply Chain & Logistics,supply_chain_logistics,Accurate Inventory Counts / Total Counts,%,monthly
+SCL007,Inventory Turnover,Supply Chain & Logistics,supply_chain_logistics,Cost of Goods Sold / Average Inventory Value,turns/year,monthly
+SCL008,Days of Supply,Supply Chain & Logistics,supply_chain_logistics,Inventory on Hand / Average Daily Usage,days,weekly
+SCL009,Stockout Rate,Supply Chain & Logistics,supply_chain_logistics,Out of Stock Items / Total SKUs,%,daily
+SCL010,Backorder Rate,Supply Chain & Logistics,supply_chain_logistics,Backordered Items / Total Items Ordered,%,weekly
+SCL011,Warehouse Capacity Utilization,Supply Chain & Logistics,supply_chain_logistics,Used Storage Space / Total Storage Space,%,daily
+SCL012,Pick Accuracy,Supply Chain & Logistics,supply_chain_logistics,Correct Picks / Total Picks,%,daily
+SCL013,Picks per Hour,Supply Chain & Logistics,supply_chain_logistics,Total Picks / Labor Hours,picks/hour,daily
+SCL014,Receiving Efficiency,Supply Chain & Logistics,supply_chain_logistics,Units Received / Receiving Labor Hours,units/hour,daily
+SCL015,Putaway Efficiency,Supply Chain & Logistics,supply_chain_logistics,Units Put Away / Putaway Labor Hours,units/hour,daily
+SCL016,Cost per Order Shipped,Supply Chain & Logistics,supply_chain_logistics,Total Fulfillment Cost / Orders Shipped,currency,monthly
+SCL017,Freight Cost per Unit,Supply Chain & Logistics,supply_chain_logistics,Total Freight Cost / Units Shipped,currency,monthly
+SCL018,Transportation Cost as % of Sales,Supply Chain & Logistics,supply_chain_logistics,Transportation Costs / Total Sales,%,monthly
+SCL019,Truck Utilization,Supply Chain & Logistics,supply_chain_logistics,Used Truck Capacity / Total Truck Capacity,%,daily
+SCL020,Miles per Gallon,Supply Chain & Logistics,supply_chain_logistics,Miles Driven / Fuel Consumed,mpg,monthly
+SCL021,Supplier Lead Time,Supply Chain & Logistics,supply_chain_logistics,Average time from PO to receipt,days,monthly
+SCL022,Supplier On-Time Delivery,Supply Chain & Logistics,supply_chain_logistics,On-Time Supplier Deliveries / Total Supplier Deliveries,%,monthly
+SCL023,Supplier Defect Rate,Supply Chain & Logistics,supply_chain_logistics,Defective Units from Supplier / Total Units Received,%,monthly
+SCL024,Purchase Order Cycle Time,Supply Chain & Logistics,supply_chain_logistics,Time from PO Creation to PO Approval,days,monthly
+SCL025,Cash-to-Cash Cycle Time,Supply Chain & Logistics,supply_chain_logistics,Inventory Days + Receivable Days - Payable Days,days,monthly
+HR001,Employee Turnover Rate,Human Resources,human_resources,Employees Who Left / Average Headcount,%,annually
+HR002,Voluntary Turnover Rate,Human Resources,human_resources,Voluntary Separations / Average Headcount,%,annually
+HR003,Involuntary Turnover Rate,Human Resources,human_resources,Involuntary Separations / Average Headcount,%,annually
+HR004,Retention Rate,Human Resources,human_resources,(Headcount - Separations) / Headcount,%,annually
+HR005,Time to Fill,Human Resources,human_resources,Days from Job Posting to Offer Acceptance,days,monthly
+HR006,Time to Hire,Human Resources,human_resources,Days from Application to Offer Acceptance,days,monthly
+HR007,Cost per Hire,Human Resources,human_resources,Total Recruiting Costs / Number of Hires,currency,quarterly
+HR008,Quality of Hire,Human Resources,human_resources,(Performance Rating + Ramp Time + Retention) / 3,score,annually
+HR009,Offer Acceptance Rate,Human Resources,human_resources,Offers Accepted / Offers Extended,%,monthly
+HR010,Application Completion Rate,Human Resources,human_resources,Completed Applications / Started Applications,%,monthly
+HR011,Source of Hire,Human Resources,human_resources,Hires per Source / Total Hires,%,quarterly
+HR012,Employee Engagement Score,Human Resources,human_resources,Survey-based engagement measurement,score,annually
+HR013,Employee Satisfaction Score (eNPS),Human Resources,human_resources,% Promoters - % Detractors,score,quarterly
+HR014,Absenteeism Rate,Human Resources,human_resources,Absent Days / Total Working Days,%,monthly
+HR015,Training Hours per Employee,Human Resources,human_resources,Total Training Hours / Headcount,hours,annually
+HR016,Training Cost per Employee,Human Resources,human_resources,Total Training Cost / Headcount,currency,annually
+HR017,Training Completion Rate,Human Resources,human_resources,Completed Training / Assigned Training,%,quarterly
+HR018,Internal Promotion Rate,Human Resources,human_resources,Internal Promotions / Total Promotions,%,annually
+HR019,Revenue per Employee,Human Resources,human_resources,Total Revenue / Headcount,currency,annually
+HR020,Profit per Employee,Human Resources,human_resources,Net Profit / Headcount,currency,annually
+HR021,Labor Cost Percentage,Human Resources,human_resources,Total Labor Costs / Total Operating Costs,%,monthly
+HR022,Overtime Percentage,Human Resources,human_resources,Overtime Hours / Total Hours Worked,%,monthly
+HR023,Diversity Ratio,Human Resources,human_resources,Diverse Employees / Total Headcount,%,annually
+HR024,Gender Pay Gap,Human Resources,human_resources,(Male Avg Pay - Female Avg Pay) / Male Avg Pay,%,annually
+HR025,Performance Review Completion Rate,Human Resources,human_resources,Completed Reviews / Required Reviews,%,annually
+MKT001,Marketing Qualified Leads (MQLs),Marketing & Sales,marketing_sales,Leads meeting marketing qualification criteria,leads,weekly
+MKT002,Sales Qualified Leads (SQLs),Marketing & Sales,marketing_sales,Leads meeting sales qualification criteria,leads,weekly
+MKT003,MQL to SQL Conversion Rate,Marketing & Sales,marketing_sales,SQLs / MQLs,%,monthly
+MKT004,Lead-to-Customer Conversion Rate,Marketing & Sales,marketing_sales,New Customers / Total Leads,%,monthly
+MKT005,Cost per Lead (CPL),Marketing & Sales,marketing_sales,Marketing Spend / Leads Generated,currency,monthly
+MKT006,Customer Acquisition Cost (CAC),Marketing & Sales,marketing_sales,Sales & Marketing Spend / New Customers,currency,monthly
+MKT007,Marketing ROI,Marketing & Sales,marketing_sales,(Revenue - Marketing Cost) / Marketing Cost,%,quarterly
+MKT008,Return on Ad Spend (ROAS),Marketing & Sales,marketing_sales,Revenue from Ads / Ad Spend,ratio,weekly
+MKT009,Click-Through Rate (CTR),Marketing & Sales,marketing_sales,Clicks / Impressions,%,daily
+MKT010,Cost per Click (CPC),Marketing & Sales,marketing_sales,Ad Spend / Clicks,currency,daily
+MKT011,Cost per Thousand Impressions (CPM),Marketing & Sales,marketing_sales,(Ad Spend / Impressions) × 1000,currency,daily
+MKT012,Email Open Rate,Marketing & Sales,marketing_sales,Emails Opened / Emails Delivered,%,per campaign
+MKT013,Email Click Rate,Marketing & Sales,marketing_sales,Email Clicks / Emails Delivered,%,per campaign
+MKT014,Email Unsubscribe Rate,Marketing & Sales,marketing_sales,Unsubscribes / Emails Delivered,%,per campaign
+MKT015,Social Media Engagement Rate,Marketing & Sales,marketing_sales,(Likes + Comments + Shares) / Followers,%,weekly
+MKT016,Social Media Reach,Marketing & Sales,marketing_sales,Unique users who saw content,users,weekly
+MKT017,Website Conversion Rate,Marketing & Sales,marketing_sales,Conversions / Website Visitors,%,weekly
+MKT018,Landing Page Conversion Rate,Marketing & Sales,marketing_sales,Form Submissions / Landing Page Visits,%,weekly
+MKT019,Sales Revenue,Marketing & Sales,marketing_sales,Total revenue from sales,currency,monthly
+MKT020,Sales Growth Rate,Marketing & Sales,marketing_sales,(Current Sales - Previous Sales) / Previous Sales,%,monthly
+MKT021,Average Deal Size,Marketing & Sales,marketing_sales,Total Revenue / Number of Deals,currency,monthly
+MKT022,Sales Cycle Length,Marketing & Sales,marketing_sales,Average days from first contact to close,days,monthly
+MKT023,Win Rate,Marketing & Sales,marketing_sales,Won Opportunities / Total Opportunities,%,monthly
+MKT024,Quota Attainment,Marketing & Sales,marketing_sales,Actual Sales / Sales Quota,%,monthly
+MKT025,Pipeline Value,Marketing & Sales,marketing_sales,Sum of all opportunity values in pipeline,currency,weekly
+CSR001,First Response Time (FRT),Customer Service,customer_service,Time from ticket creation to first response,hours,daily
+CSR002,Average Handle Time (AHT),Customer Service,customer_service,(Talk Time + Hold Time + After Call Work) / Total Calls,minutes,daily
+CSR003,First Contact Resolution (FCR),Customer Service,customer_service,Issues Resolved on First Contact / Total Contacts,%,daily
+CSR004,Customer Satisfaction Score (CSAT),Customer Service,customer_service,Satisfied Responses / Total Responses,%,daily
+CSR005,Net Promoter Score (NPS),Customer Service,customer_service,% Promoters - % Detractors,score,monthly
+CSR006,Customer Effort Score (CES),Customer Service,customer_service,Survey-based effort measurement,score,monthly
+CSR007,Ticket Volume,Customer Service,customer_service,Total support tickets received,tickets,daily
+CSR008,Ticket Backlog,Customer Service,customer_service,Open tickets awaiting resolution,tickets,daily
+CSR009,Average Resolution Time,Customer Service,customer_service,Total Resolution Time / Tickets Resolved,hours,daily
+CSR010,Escalation Rate,Customer Service,customer_service,Escalated Tickets / Total Tickets,%,weekly
+CSR011,Ticket Reopen Rate,Customer Service,customer_service,Reopened Tickets / Resolved Tickets,%,weekly
+CSR012,Service Level Agreement (SLA) Compliance,Customer Service,customer_service,Tickets Meeting SLA / Total Tickets,%,daily
+CSR013,Abandonment Rate,Customer Service,customer_service,Abandoned Calls / Total Calls,%,daily
+CSR014,Average Wait Time,Customer Service,customer_service,Total Wait Time / Total Calls Answered,seconds,daily
+CSR015,Service Level,Customer Service,customer_service,Calls Answered within Target / Total Calls,%,daily
+CSR016,Occupancy Rate,Customer Service,customer_service,Time Handling Contacts / Available Time,%,daily
+CSR017,Agent Utilization,Customer Service,customer_service,Productive Time / Total Logged-In Time,%,daily
+CSR018,Cost per Contact,Customer Service,customer_service,Total Support Costs / Total Contacts,currency,monthly
+CSR019,Cost per Resolution,Customer Service,customer_service,Total Support Costs / Resolved Tickets,currency,monthly
+CSR020,Self-Service Usage Rate,Customer Service,customer_service,Self-Service Resolutions / Total Resolutions,%,monthly
+CSR021,Knowledge Base Article Views,Customer Service,customer_service,Total article page views,views,weekly
+CSR022,Chatbot Resolution Rate,Customer Service,customer_service,Bot-Resolved Issues / Bot-Initiated Chats,%,weekly
+CSR023,Transfer Rate,Customer Service,customer_service,Transferred Calls / Total Calls,%,daily
+CSR024,Agent Satisfaction Score,Customer Service,customer_service,Survey-based agent satisfaction,score,quarterly
+CSR025,Quality Assurance Score,Customer Service,customer_service,QA Evaluation Score,%,weekly
+REL001,Occupancy Rate,Real Estate,real_estate,Occupied Units / Total Units,%,monthly
+REL002,Vacancy Rate,Real Estate,real_estate,Vacant Units / Total Units,%,monthly
+REL003,Net Operating Income (NOI),Real Estate,real_estate,Gross Operating Income - Operating Expenses,currency,monthly
+REL004,Capitalization Rate (Cap Rate),Real Estate,real_estate,NOI / Property Value,%,annually
+REL005,Cash-on-Cash Return,Real Estate,real_estate,Annual Pre-Tax Cash Flow / Total Cash Invested,%,annually
+REL006,Internal Rate of Return (IRR),Real Estate,real_estate,Discount rate that makes NPV zero,%,annually
+REL007,Gross Rent Multiplier (GRM),Real Estate,real_estate,Property Price / Annual Gross Rental Income,ratio,annually
+REL008,Operating Expense Ratio,Real Estate,real_estate,Operating Expenses / Gross Operating Income,%,monthly
+REL009,Debt Service Coverage Ratio (DSCR),Real Estate,real_estate,NOI / Annual Debt Service,ratio,annually
+REL010,Loan-to-Value Ratio (LTV),Real Estate,real_estate,Loan Amount / Property Value,%,at origination
+REL011,Price per Square Foot,Real Estate,real_estate,Property Price / Square Footage,currency/sqft,at transaction
+REL012,Rent per Square Foot,Real Estate,real_estate,Annual Rent / Square Footage,currency/sqft,monthly
+REL013,Average Daily Rate (ADR),Real Estate,real_estate,Room Revenue / Rooms Sold,currency,daily
+REL014,Revenue per Available Room (RevPAR),Real Estate,real_estate,Room Revenue / Available Rooms,currency,daily
+REL015,Tenant Retention Rate,Real Estate,real_estate,Renewed Leases / Expiring Leases,%,annually
+REL016,Lease Renewal Rate,Real Estate,real_estate,Renewed Leases / Total Leases Eligible,%,annually
+REL017,Average Lease Term,Real Estate,real_estate,Sum of Lease Terms / Number of Leases,months,annually
+REL018,Rent Collection Rate,Real Estate,real_estate,Rent Collected / Rent Billed,%,monthly
+REL019,Delinquency Rate,Real Estate,real_estate,Delinquent Tenants / Total Tenants,%,monthly
+REL020,Make-Ready Time,Real Estate,real_estate,Average days to prepare unit for new tenant,days,monthly
+REL021,Maintenance Cost per Unit,Real Estate,real_estate,Total Maintenance Costs / Total Units,currency,annually
+REL022,Work Order Completion Time,Real Estate,real_estate,Average time to complete work orders,days,monthly
+REL023,Construction Cost per Square Foot,Real Estate,real_estate,Total Construction Cost / Square Footage,currency/sqft,per project
+REL024,Development Timeline Variance,Real Estate,real_estate,(Actual Duration - Planned Duration) / Planned Duration,%,per project
+REL025,Absorption Rate,Real Estate,real_estate,Units Sold per Month / Total Available Units,%,monthly
+TEL001,Average Revenue Per User (ARPU),Telecommunications,telecommunications,Total Revenue / Total Subscribers,currency,monthly
+TEL002,Subscriber Acquisition Cost (SAC),Telecommunications,telecommunications,Sales & Marketing Cost / New Subscribers,currency,monthly
+TEL003,Churn Rate,Telecommunications,telecommunications,Lost Subscribers / Beginning Subscribers,%,monthly
+TEL004,Customer Lifetime Value (CLV),Telecommunications,telecommunications,ARPU × Gross Margin × Average Tenure,currency,quarterly
+TEL005,Net Subscriber Additions,Telecommunications,telecommunications,New Subscribers - Lost Subscribers,subscribers,monthly
+TEL006,Network Availability,Telecommunications,telecommunications,Uptime / Total Time,%,monthly
+TEL007,Call Drop Rate,Telecommunications,telecommunications,Dropped Calls / Total Calls,%,daily
+TEL008,Call Setup Success Rate,Telecommunications,telecommunications,Successful Call Setups / Call Attempts,%,daily
+TEL009,Mean Opinion Score (MOS),Telecommunications,telecommunications,Voice quality rating (1-5),score,monthly
+TEL010,Data Throughput,Telecommunications,telecommunications,Data transferred / Time,Mbps,real-time
+TEL011,Network Latency,Telecommunications,telecommunications,Round-trip time for data packets,ms,real-time
+TEL012,Packet Loss Rate,Telecommunications,telecommunications,Lost Packets / Total Packets Sent,%,real-time
+TEL013,Coverage Area,Telecommunications,telecommunications,Area with network signal / Total target area,%,quarterly
+TEL014,Spectrum Efficiency,Telecommunications,telecommunications,Data Rate / Bandwidth,bps/Hz,monthly
+TEL015,Tower Utilization,Telecommunications,telecommunications,Active Connections / Tower Capacity,%,daily
+TEL016,CAPEX Intensity,Telecommunications,telecommunications,Capital Expenditure / Revenue,%,annually
+TEL017,OPEX per Subscriber,Telecommunications,telecommunications,Operating Expenses / Total Subscribers,currency,monthly
+TEL018,Minutes of Use (MOU),Telecommunications,telecommunications,Total voice minutes / Subscribers,minutes,monthly
+TEL019,Data Usage per Subscriber,Telecommunications,telecommunications,Total Data Usage / Subscribers,GB,monthly
+TEL020,SMS Volume per Subscriber,Telecommunications,telecommunications,Total SMS Sent / Subscribers,messages,monthly
+TEL021,Prepaid to Postpaid Ratio,Telecommunications,telecommunications,Prepaid Subscribers / Postpaid Subscribers,ratio,monthly
+TEL022,Blended ARPU,Telecommunications,telecommunications,Weighted average of prepaid and postpaid ARPU,currency,monthly
+TEL023,Number Portability Rate,Telecommunications,telecommunications,Ported Numbers / Total Subscribers,%,monthly
+TEL024,Customer Complaint Rate,Telecommunications,telecommunications,Complaints / Total Subscribers × 1000,per 1000 subscribers,monthly
+TEL025,First Call Resolution,Telecommunications,telecommunications,Issues Resolved on First Call / Total Calls,%,daily
+PM001,Schedule Variance (SV),Project Management,project_management,Earned Value - Planned Value,currency,weekly
+PM002,Schedule Performance Index (SPI),Project Management,project_management,Earned Value / Planned Value,ratio,weekly
+PM003,Cost Variance (CV),Project Management,project_management,Earned Value - Actual Cost,currency,weekly
+PM004,Cost Performance Index (CPI),Project Management,project_management,Earned Value / Actual Cost,ratio,weekly
+PM005,Estimate at Completion (EAC),Project Management,project_management,Budget at Completion / CPI,currency,weekly
+PM006,Estimate to Complete (ETC),Project Management,project_management,EAC - Actual Cost,currency,weekly
+PM007,Variance at Completion (VAC),Project Management,project_management,Budget at Completion - EAC,currency,weekly
+PM008,Percent Complete,Project Management,project_management,Completed Work / Total Work,%,weekly
+PM009,On-Time Completion Rate,Project Management,project_management,Projects Completed On Time / Total Projects,%,quarterly
+PM010,On-Budget Completion Rate,Project Management,project_management,Projects Completed On Budget / Total Projects,%,quarterly
+PM011,Project Success Rate,Project Management,project_management,Successful Projects / Total Projects,%,quarterly
+PM012,Resource Utilization,Project Management,project_management,Billable Hours / Available Hours,%,weekly
+PM013,Resource Allocation Rate,Project Management,project_management,Allocated Resources / Total Resources,%,weekly
+PM014,Sprint Velocity,Project Management,project_management,Story Points Completed per Sprint,points,per sprint
+PM015,Sprint Burndown Rate,Project Management,project_management,Work Remaining per Day,points/day,daily
+PM016,Defect Density,Project Management,project_management,Defects / Lines of Code,defects/KLOC,per release
+PM017,Requirements Stability,Project Management,project_management,Changed Requirements / Total Requirements,%,per phase
+PM018,Scope Creep,Project Management,project_management,(Final Scope - Original Scope) / Original Scope,%,per project
+PM019,Stakeholder Satisfaction,Project Management,project_management,Survey-based satisfaction score,score,per project
+PM020,Risk Mitigation Rate,Project Management,project_management,Mitigated Risks / Identified Risks,%,monthly
+PM021,Issue Resolution Time,Project Management,project_management,Average time to resolve issues,days,weekly
+PM022,Change Request Volume,Project Management,project_management,Number of change requests,requests,monthly
+PM023,Team Productivity,Project Management,project_management,Output / Team Size,output/person,weekly
+PM024,Meeting Efficiency,Project Management,project_management,Decisions Made / Meeting Hours,decisions/hour,weekly
+PM025,Documentation Completeness,Project Management,project_management,Completed Docs / Required Docs,%,per phase

@@ -1,0 +1,4 @@
+order_id,order_date,customer_id,product_id,sku,quantity,subtotal,discount,tax,total,payment_method,shipping_city,shipping_method,status
+O100000,2024-03-03 03:03:00,C1047,P0019,SKU0048,3,546.93,48.63,38.29,536.59,Apple Pay,Los Angeles,DHL Express,failed
+O100001,2024-03-02 04:08:00,C1293,P0003,SKU0041,1,123.93,23.88,8.68,108.73,Google Pay,Houston,USPS Priority,pending
+O100199,2024-04-21 01:19:00,C1725,P0022,SKU0029,5,1232.75,344.81,86.29,974.23,ShopPay,Los Angeles,USPS Priority,pending
