@@ -1,0 +1,17 @@
+sector,region,weather_risk_index,weather_volatility_index,revenue_impact_pct,cost_impact_pct
+Retail,US_NORTH,105.19,0.21,5.73,7.92
+Retail,US_SOUTH,101.0,0.23,5.61,4.74
+Retail,US_WEST,119.85,0.55,3.54,8.69
+Retail,US_EAST,109.91,0.12,20.8,15.8
+Energy,US_NORTH,98.3,0.3,-4.08,4.3
+Energy,US_SOUTH,81.78,0.53,-13.58,-0.13
+Energy,US_WEST,117.26,0.47,-3.74,-2.42
+Energy,US_EAST,80.2,0.45,-13.05,5.98
+Logistics,US_NORTH,118.48,0.15,20.78,19.74
+Logistics,US_SOUTH,82.46,0.54,5.64,17.2
+Logistics,US_WEST,102.85,0.43,6.75,15.93
+Logistics,US_EAST,109.36,0.36,19.73,-2.64
+Agriculture,US_NORTH,86.29,0.18,-1.64,-2.84
+Agriculture,US_SOUTH,117.2,0.15,12.96,-4.32
+Agriculture,US_WEST,115.27,0.58,3.62,16.37
+Agriculture,US_EAST,80.21,0.51,-5.85,17.26
